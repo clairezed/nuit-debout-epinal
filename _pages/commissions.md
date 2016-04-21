@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: Commissions
 permalink: /commissions
 date: 2015-09-23T14:11:44-04:00
