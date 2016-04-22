@@ -2,7 +2,7 @@
 layout: home
 permalink: /
 image:
-  feature: pic-nd-01.jpg
+  feature: pic-nd-02.jpg
 ---
 
 <section>
@@ -26,6 +26,7 @@ image:
 
 <section>
   <h2>Avoir plus d'infos et participer</h2>
+  <p> Si vous souhaitez vous impliquer, n'hésitez pas à nous rejoindre place des Vosges<br> ou à nous contacter via twitter, facebook, email !</p>
   <ul class="list link-list">
     {% for link in site.data.nde-links %}
     <li>
@@ -33,6 +34,12 @@ image:
       <a href="{{link.url}}">{{link.url}}</a>
     </li>
     {% endfor %}
+  </ul>
+    <ul class="list link-list">
+    <li>
+      <span class="link-title">Mail contact : </span>
+      <a href="mailto:nuitdebout.epinal@openmailbox.org">nuitdebout.epinal@openmailbox.org</a>
+    </li>
   </ul>
 
 </section>
