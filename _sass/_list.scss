@@ -1,0 +1,19 @@
+/*
+Listes
+========================================================================== */
+
+
+
+
+.list {
+  list-style-type: none;
+  li {
+    list-style: none;
+  }
+  &.link-list {
+    .link-title {
+      font-weight: bold;
+      display: block;
+    }
+  }
+}

@@ -5,8 +5,8 @@
 /*
    Typography variables
    ========================================================================== */
-
-$base-font                   	: Georgia,Times,"Times New Roman",serif;
+// $base-font                   	: Georgia,Times,"Times New Roman",serif;
+$base-font                    : "Helvetica Neue","Segoe UI",Arial,sans-serif;
 $heading-font                	: "Helvetica Neue","Segoe UI",Arial,sans-serif;
 $caption-font                	: $base-font;
 $code-font                   	: monospace;
@@ -16,23 +16,26 @@ $doc-font-size               	: 16;
 $doc-line-height             	: 24;
 
 $border-radius               	: 3px;
-
 /*
    Color variables
    ========================================================================== */
+$nde-red                      : #e0173e;
+$nde-blue                     : #003262;
 
 $white                        : #fff;
 $black                        : #000;
 
-$body-color                  	: #ebebeb;
+$body-color                   : #ebebeb;
+$body-bg-color                : $nde-blue;
 
-$text-color                  	: #313130;
+$text-color                   : #fff;
 $caption-color                : mix($white, $text-color, 25%);
 
 $base-color                  	: #343434;
 $comp-color                  	: complement($base-color);
 $border-color                	: #ddd;
-$link-color                  	: #222;
+// $link-color                   : #222;
+$link-color                  	: #ffbfca;
 
 $primary-color               	: $black;
 $success-color               	: #2ecc71;

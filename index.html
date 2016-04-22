@@ -1,0 +1,39 @@
+---
+layout: home
+permalink: /
+image:
+  feature: pic-nd-01.jpg
+---
+
+<section>
+<h2>Les prochaines dates</h2>
+  <div class="tiles">
+
+    {% for night in site.data.agenda %}
+      <div class="tile tile-home">
+        <h2 class="tile-title">
+          <span class="tile-title-main ">{{ night.date_nd }} </span>
+          <span class="tile-title-subtitle">- {{ night.date_normal }} -</span>
+          </h2>
+        <p>{{ night.hour }}</p>
+        <p class="tile-excerpt">{{ night.location }}</p>
+      </div>
+    {% endfor %}
+
+
+  </div>
+</section>
+
+<section>
+  <h2>Avoir plus d'infos et participer</h2>
+  <ul class="list link-list">
+    {% for link in site.data.nde-links %}
+    <li>
+      <span class="link-title">{{link.title}} : </span>
+      <a href="{{link.url}}">{{link.url}}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+</section>
+

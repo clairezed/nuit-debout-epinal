@@ -29,15 +29,21 @@
   display: block;
   width: $button-size * 2;
   height: $button-size * 2;
-  background: $primary-color;
+  background: $nde-red;
   outline: 0;
   padding: 0;
   border: 2.5px solid transparent;
   cursor: pointer;
   z-index: 20;
   box-sizing: border-box;
+  @include media($medium) {
+    display: none; /* reset slide position */
+  }
+  @include media($large) {
+    display: none; /* reset slide position */
+  }
   &:hover {
-    background: $black;
+    background: darken($nde-red, 15%);
   }
   transition: $sliding-menu-animation;
   &.slide {

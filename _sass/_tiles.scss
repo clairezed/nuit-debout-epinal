@@ -3,26 +3,39 @@
    ========================================================================== */
 
 .tile {
+  background-color: $nde-red;
+  padding: 20px;
   @include outer-container;
   margin-bottom: $gutter;
   @include media($micro) {
     @include fill-parent;
   }
   @include media(new-breakpoint(min-width em(480) 12)) {
-    @include span-columns(3);
-    @include omega(4n);
+    @include span-columns(4);
+    @include omega(3n);
+  }
+  &.tile-home {
+    // @include span-columns(4);
+    text-align: center;
   }
   .entry-date {
     @include font-size(16,no);
-    color: lighten($text-color,25);
+    color: darken($text-color,25);
   }
-  .post-title {
-    @include font-size(18,no);
+  .tile-title {
+    text-align: center;
+    span {
+      display: block;
+    }
+    @include font-size(20,no);
+    .tile-title-subtitle {
+      @include font-size(18,no);
+    }
   }
-  .post-excerpt {
+  .tile-excerpt {
     @include font-size(16);
   }
-  .post-teaser {
+  .tile-teaser {
     position: relative;
     display: block;
     &:after {

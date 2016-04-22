@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: article
 title: Commissions
 date: 2015-09-23T14:11:44-04:00
 modified: 2016-03-03T10:29:27-05:00
 ---
 
-Commissions 2
+Contact
 <p>Gros morceaux grossissant en continu</p>
 
 
