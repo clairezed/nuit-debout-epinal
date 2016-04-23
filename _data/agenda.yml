@@ -1,7 +1,9 @@
-- date_nd: Vendredi 53 mars
-  date_normal: 22 avril
-  hour: 18h - 03h
-  location: Place des Vosges
+# - date_nd: Vendredi 53 mars
+#   date_normal: 22 avril
+#   hour: 18h - 03h
+#   location: Place des Vosges
+#   atelier: [:langue de bois, expression libre]
+#   projection : Usul ?
 
 - date_nd: Samedi 54 mars
   date_normal: 23 avril
@@ -12,4 +14,9 @@
   date_normal: 24 avril
   hour: 14h - 01h
   location: Place des Vosges
+
+- date_nd: Jeudi 59 mars
+  date_normal: 28 avril
+  hour: 18h - 01h
+  location: à préciser !
 
