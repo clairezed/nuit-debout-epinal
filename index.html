@@ -27,6 +27,15 @@ image:
 <section>
   <h2>Avoir plus d'infos et participer</h2>
   <p> Si vous souhaitez vous impliquer, n'hésitez pas à nous rejoindre place des Vosges<br> ou à nous contacter via twitter, facebook, email !</p>
+  <div class="center">
+    <a class="btn btn-primary" href="{{ domain }}/commissions/">Contacter et participer aux commissions </a>
+  </div>
+  <ul class="list link-list">
+    <li>
+      <span class="link-title">Mail contact : </span>
+      <a href="mailto:nuitdebout.epinal@openmailbox.org">nuitdebout.epinal@openmailbox.org</a>
+    </li>
+  </ul>
   <ul class="list link-list">
     {% for link in site.data.nde-links %}
     <li>
@@ -34,12 +43,6 @@ image:
       <a href="{{link.url}}">{{link.url}}</a>
     </li>
     {% endfor %}
-  </ul>
-    <ul class="list link-list">
-    <li>
-      <span class="link-title">Mail contact : </span>
-      <a href="mailto:nuitdebout.epinal@openmailbox.org">nuitdebout.epinal@openmailbox.org</a>
-    </li>
   </ul>
 
 </section>

@@ -2,12 +2,12 @@
 
 - title: Commissions
   url: /commissions/
-  excerpt: Liste des commissions existantes. N'hésitez pas à les contacter ou en proposer d'autres !
+  excerpt: Liste et contact des commissions existantes
   image:
 
-- title: Médias
-  url: /media/
-  excerpt: "Photos, vidéos..."
+- title: Revue de presse
+  url: /revue-de-presse/
+  excerpt: "Liens et articles traitant de Nuit Debout Epinal"
   image:
 
 # - title: Infos et contact

@@ -1,0 +1,26 @@
+---
+layout: page
+title: Revue de presse
+date: 2015-09-23T14:11:44-04:00
+modified: 2016-03-03T10:29:27-05:00
+permalink: /revue-de-presse
+nav: revue-presse
+---
+
+  <ul class="list review-list">
+  {% assign sorted_reviews = (site.data.revue-presse | sort: 'date') | reverse %}
+    {% for review in sorted_reviews %}
+    <li>
+      <div class="review-header">
+        <span class="review-date">{{ review.date | date: "%d/%m/%Y" }} - </span>
+        <span class="review-title">{{review.title}} </span>
+      </div>
+      <a href="{{review.url}}">{{review.url}}</a>
+      <!-- <span class="badge">{{review.media}} </span> -->
+    </li>
+    {% endfor %}
+  </ul>
+
+
+
+

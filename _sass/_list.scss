@@ -3,8 +3,6 @@ Listes
 ========================================================================== */
 
 
-
-
 .list {
   list-style-type: none;
   li {
@@ -14,6 +12,11 @@ Listes
     .link-title {
       font-weight: bold;
       display: block;
+    }
+  }
+  &.review-list {
+    .review-header {
+      font-weight: bold;
     }
   }
 }
