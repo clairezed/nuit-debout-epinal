@@ -28,6 +28,43 @@
 }
 
 /*
+   primary button .btn-primary
+   ========================================================================== */
+
+.btn-primary {
+	@extend .btn;
+	background-color: $nde-red;
+	color: $text-color;
+	&:visited,
+	&:active {
+		color: $text-color;
+	}
+	&:hover {
+		color: $white;
+		background-color: darken($nde-red, 5%);
+	}
+}
+
+/*
+   secondary button .btn-secondary
+   ========================================================================== */
+
+.btn-secondary {
+	@extend .btn;
+	background-color: $nde-blue;
+	color: $text-color;
+	&:visited,
+	&:active {
+		color: $text-color;
+	}
+	&:hover {
+		color: $white;
+		background-color: darken($nde-blue, 5%);
+	}
+}
+
+
+/*
    Inverse button .btn-inverse
    ========================================================================== */
 

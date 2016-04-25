@@ -2,7 +2,8 @@
 layout: {{ layout }}
 title: {{ title }}
 modified:
-categories: {{ dir }}
+categories:  {{ categories }}
+permalink: {{ permalink }}
 excerpt:
 tags: []
 image:

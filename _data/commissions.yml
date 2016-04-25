@@ -1,56 +1,137 @@
-- title: Logistique
-  coordination_link: https://framapad.org/
-  members: ["Renée Lise & Bernard", "Isabelle G.", "Juliette", "Emmanuelle L.", "Léo P.", "Pascal M.", "Mathieu"]
-
-- title: Environnement
-  coordination_link: https://framapad.org/
-  members: ["Bernard S", "Renée Lise", "Isabelle G.", "Emmanuelle L.", "Léandre B.", "Hélène B.", "Dominique H.", "Juliette", "Adrien", "Emma L.", "Bérénice", "Flora G."]
-
-- title: Documentation
-  coordination_link: https://framapad.org/
-  members: ["Isabelle", "Cécilia H.", "Julien H."]
-
-
-- title: Médias
-  coordination_link: https://framapad.org/
-  members: ["Stéphane", "Claire Z.", "Emmanuelle L.", "Julien D.", "Anabelle"]
-
-- title: Jardin
-  coordination_link: https://framapad.org/
-  members: ["Emmanuelle L.", "Stéphane", "Adrien", "Juliette", "Alice M.", "Jehanic", "Céline"]
-
-- title: Cuisine
-  coordination_link: https://framapad.org/
-  members: ["Emmanuelle L.", "Cécilia H."]
-
-- title: Projection
-  coordination_link: https://framapad.org/
-  members: ["Brieuc M.", "Cécilia H.", "Géroux", "Isabelle G."]
-
-- title: Théâtre
-  coordination_link: https://framapad.org/
-  members: ["Adrien", "Emma", "Bérénice"]
-
-- title: Théâtre radical
-  coordination_link: https://framapad.org/
-  members: ["Joël", "Léandre", "Antoine", "Brieuc"]
+- title: Animation
+  symbol: animation
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-animation
+  description: "Vous avez un atelier à proposer ? C'est à la commission animation qu'il faut vous adresser !"
+  image:
+    teaser: comanimation1.jpg
+    features: [comanimation1.jpg, comanimation2.jpg]
 
 - title: Antipub
-  coordination_link: https://framapad.org/
+  symbol: antipub
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-antipub
   members: ["Stéphane", "Claire Z.", "Emmanuelle L.", "Cécilia H", "Elodie", "Brieuc M"]
-
-- title: Musique
-  coordination_link: https://framapad.org/
-  members: ["MP", "Joël", "Mathieu"]
-
-- title: Projet de société
-  coordination_link: https://framapad.org/
-  members: ["l'autre Léo P", "Stéphane", "Cécilia"]
-
-- title: Langue de bois
-  coordination_link: https://framapad.org/
-  members: ["Antoine D.", "Léandre", "Agathe"]
+  description: ""
+  image:
+    # teaser: comanimation1.jpg
+    # features: [comlogistique1.jpg, comlogistique2.jpg]
 
 - title: Convergence des luttes
-  coordination_link: https://framapad.org/
+  symbol: convergencedesluttes
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-convergencedesluttes
   members: ["Réseau Rêve", "Dominique H", "Stéphane", "l'autre Léo P"]
+  description: ""
+  image:
+    # teaser: comanimation1.jpg
+    # features: [comlogistique1.jpg, comlogistique2.jpg]
+
+- title: Cuisine
+  symbol: cuisine
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-cuisine
+  members: ["Emmanuelle L.", "Cécilia H."]
+  description: "C'est grâce à la commission cuisine qu'on peut se restaurer à prix libre à Nuit Debout Epinal !"
+  image:
+    teaser: comcuisine2.jpg
+    features: [comcuisine2.jpg]
+
+
+- title: Documentation
+  symbol: documentation
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-documentation
+  members: ["Isabelle", "Cécilia H.", "Julien H."]
+  description: "La commission documentation se charge de l'apport de ressources documentaires au sein de Nuit Debout Epinal (et notamment de BiblioDebout sur place)"
+  image:
+    teaser: comdocumentation.jpg
+    features: [comdocumentation.jpg]
+
+
+- title: Environnement
+  symbol: environnement
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-environnement
+  members: ["Bernard S", "Renée Lise", "Isabelle G.", "Emmanuelle L.", "Léandre B.", "Hélène B.", "Dominique H.", "Juliette", "Adrien", "Emma L.", "Bérénice", "Flora G."]
+  description: "La commission environnement organise les actions et réflexions autour des thématiques environnementales, notamment l'eau et les forêts (enjeux locaux forts), et fait le lien avec les associations locales déjà actives sur le sujet."
+  image:
+    # teaser: comanimation1.jpg
+    # features: [comlogistique1.jpg, comlogistique2.jpg]
+
+- title: Jardin
+  symbol: jardin
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-jardin
+  members: ["Emmanuelle L.", "Stéphane", "Adrien", "Juliette", "Alice M.", "Jehanic", "Céline"]
+  description: "La commission jardin propose des actions autour de la végétation, nature en ville..."
+  image:
+    teaser: comjardin2.jpg
+    features: [comjardin2.jpg, comjardin3.jpg]
+
+- title: Langue de bois
+  symbol: languedebois
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-languedebois
+  members: ["Antoine D.", "Léandre", "Agathe"]
+  description: ""
+  image:
+    # teaser: comanimation1.jpg
+    # features: [comlogistique1.jpg, comlogistique2.jpg]
+
+- title: Logistique
+  symbol: logistique
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-logistique
+  members: ["Renée Lise & Bernard", "Isabelle G.", "Juliette", "Emmanuelle L.", "Léo P.", "Pascal M.", "Mathieu"]
+  description: "La commission logistique se charge de l'organisation au quotidien de l'occupation de la place : récupération et transport du matériel, stockage et installation..."
+  image:
+    teaser: comlogistique1.jpg
+    features: [comlogistique1.jpg, comlogistique2.jpg]
+
+- title: Musique
+  symbol: musique
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-musique
+  members: ["MP", "Joël", "Mathieu"]
+  description: ""
+  image:
+    # teaser: comanimation1.jpg
+    # features: [comlogistique1.jpg, comlogistique2.jpg]
+
+
+- title: Média
+  symbol: media
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-media
+  members: ["Stéphane", "Claire Z.", "Emmanuelle L.", "Julien D.", "Anabelle"]
+  description: "La commission média se charge des aspects de communication interne (outils de coordination...) et externe (wiki, captation photo et sonore, réseaux sociaux...)"
+  image:
+    # teaser: comanimation1.jpg
+    # features: [comlogistique1.jpg, comlogistique2.jpg]
+
+- title: Projection
+  symbol: projection
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-projection
+  members: ["Brieuc M.", "Cécilia H.", "Géroux", "Isabelle G."]
+  description: "La commission projection gère la programmation des films (documentaires ou fictions) projetés."
+  image:
+    teaser: comprojection.jpg
+    features: [comprojection.jpg]
+
+- title: Projet de société
+  symbol: projetdesociete
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-projetdesociete
+  members: ["l'autre Léo P", "Stéphane", "Cécilia"]
+  description: ""
+  image:
+    # teaser: comanimation1.jpg
+    # features: [comlogistique1.jpg, comlogistique2.jpg]
+
+- title: Théâtre
+  symbol: theatre
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-theatre
+  members: ["Adrien", "Emma", "Bérénice"]
+  description: ""
+  image:
+    # teaser: comanimation1.jpg
+    # features: [comlogistique1.jpg, comlogistique2.jpg]
+
+- title: Théâtre radical
+  symbol: theatreradical
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-theatreradical
+  members: ["Joël", "Léandre", "Antoine", "Brieuc"]
+  description: ""
+  image:
+    # teaser: comanimation1.jpg
+    # features: [comlogistique1.jpg, comlogistique2.jpg]
+

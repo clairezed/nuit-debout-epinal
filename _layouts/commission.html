@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+{% assign commission = site.data.commissions | where:"symbol", page.symbol  | first %}
+
+
+<div id="main" role="main">
+  <div class="wrap">
+    <div class="page-title">
+      <h1>Commission {{ commission.title }}</h1>
+    </div>
+    {% if commission.image.features %}
+      <figure class="half">
+        {% for source in commission.image.features %}
+          <img src="{{ site.url }}/images/{{ source }}">
+        {% endfor %}
+        <!-- <figcaption>Caption describing these two images.</figcaption> -->
+      </figure>
+    {% endif %}
+    {% if commission.description %}
+      <p>{{ commission.description }}</p>
+    {% endif %}
+
+<!--     {% if commission.image.teaser %}
+    <div class="page-feature">
+      <div class="page-image">
+        <img src="{{ site.url }}/images/{{ commission.image.teaser }}" class="page-feature-image" alt="{{ page.title }}">
+        {% if commission.image.credit %}{% include image-credit.html %}{% endif %}
+      </div>
+    </div>
+    {% endif %} -->
+    <a class="btn btn-primary" href="{{ commission.coordination_link }}" title="Contacter ou participer à la commission {{commission.title}}">Contacter ou participer à la commission {{commission.title}}</a>
+    <!-- <hr> -->
+    <div class="archive-wrap">
+      <div class="page-content">
+        {{ content }}
+      </div>
+    </div class="archive-wrap">
+  </div>
+</div>

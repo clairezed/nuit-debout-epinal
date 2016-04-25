@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Getting Started with Skinny Bones"
+title: "Contribuer au site NuitDebout."
 date: 2014-06-25T13:57:25-04:00
 modified: 2016-01-19
 excerpt:
@@ -11,7 +11,24 @@ image:
   thumb:
 share: false
 ---
-# Skinny Bones Jekyll Starter
+
+
+
+# Site Nuit Debout Epinal
+
+Deux modes de contribution
+
+## Contribution rapide - en ajoutant des données
+
+
+## Contribution experte - au code
+
+### Installation locale
+
+### Armature
+
+### pull request
+
 
 Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 
