@@ -31,7 +31,7 @@ modified: 2016-03-03T10:29:27-05:00
     <p class="post-excerpt" itemprop="description">{{ commission.description | strip_html | truncate: 100 }}</p>
     <div class="inline-btn">
     <a class="btn btn-secondary" href="{{ site.url }}/commissions/{{commission.symbol}}" title="Voir la page de la commission {{commission.title}}">Voir la page</a>
-    <a class="btn btn-secondary" href="{{ commission.coordination_link }}" title="Contacter ou participer à la commission {{commission.title}}">Contacter</a>
+    <a class="btn btn-secondary" target='_blank' href="{{ commission.coordination_link }}" title="Contacter ou participer à la commission {{commission.title}}">Contacter</a>
 
     </div>
   </article>
