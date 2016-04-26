@@ -10,7 +10,7 @@
   symbol: antipub
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-antipub
   members: ["Stéphane", "Claire Z.", "Emmanuelle L.", "Cécilia H", "Elodie", "Brieuc M"]
-  description: ""
+  description: "Réflexions et actions autour de l'opposition à l'omniprésence de la publicité."
   image:
     # teaser: comanimation1.jpg
     # features: [comlogistique1.jpg, comlogistique2.jpg]
@@ -19,7 +19,7 @@
   symbol: convergencedesluttes
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-convergencedesluttes
   members: ["Réseau Rêve", "Dominique H", "Stéphane", "l'autre Léo P"]
-  description: ""
+  description: "Synchronisation des actions au sein de la nuit debout et en lien avec le tissu associatif existant"
   image:
     # teaser: comanimation1.jpg
     # features: [comlogistique1.jpg, comlogistique2.jpg]
@@ -38,7 +38,7 @@
   symbol: documentation
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-documentation
   members: ["Isabelle", "Cécilia H.", "Julien H."]
-  description: "La commission documentation se charge de l'apport de ressources documentaires au sein de Nuit Debout Epinal (et notamment de BiblioDebout sur place)"
+  description: "La commission documentation se charge de l'apport de ressources documentaires au sein de Nuit Debout Epinal (et notamment de Biblio Bonjour, mise à disposition de livres sur place)"
   image:
     teaser: comdocumentation.jpg
     features: [comdocumentation.jpg]
@@ -84,7 +84,7 @@
   symbol: musique
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-musique
   members: ["MP", "Joël", "Mathieu"]
-  description: ""
+  description: "Gestion et organisation de concerts et d'animations musicales"
   image:
     # teaser: comanimation1.jpg
     # features: [comlogistique1.jpg, comlogistique2.jpg]
@@ -112,7 +112,7 @@
   symbol: projetdesociete
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-projetdesociete
   members: ["l'autre Léo P", "Stéphane", "Cécilia"]
-  description: ""
+  description: "Réflexions et débats autour de la société"
   image:
     # teaser: comanimation1.jpg
     # features: [comlogistique1.jpg, comlogistique2.jpg]
