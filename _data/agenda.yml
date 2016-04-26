@@ -1,22 +1,56 @@
-# - date_nd: Vendredi 53 mars
-#   date_normal: 22 avril
-#   hour: 18h - 03h
-#   location: Place des Vosges
-#   atelier: [:langue de bois, expression libre]
-#   projection : Usul ?
+- date_nd: Jeudi 52 mars
+  date_normal: 21 avril
+  date: 2016-04-21 10:00:00 +0200
+  hour: 18h - 01h
+  location: Place des Vosges
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Jeudi_52_mars.2F21_avril_2016"
+
+- date_nd: Vendredi 53 mars
+  date_normal: 22 avril
+  date: 2016-04-22 10:00:00 +0200
+  hour: 18h - 03h
+  location: Place des Vosges
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Vendredi_53_mars.2F22_avril_2016"
 
 - date_nd: Samedi 54 mars
   date_normal: 23 avril
+  date: 2016-04-23 10:00:00 +0200
   hour: 14h - 03h
   location: Place des Vosges
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Samedi_54_mars.2F23_avril_2016"
 
 - date_nd: Dimanche 55 mars
   date_normal: 24 avril
+  date: 2016-04-24 10:00:00 +0200
   hour: 14h - 01h
   location: Place des Vosges
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Dimanche_55_mars.2F24_avril_2016"
 
 - date_nd: Jeudi 59 mars
   date_normal: 28 avril
+  date: 2016-04-28 10:00:00 +0200
   hour: 18h - 01h
-  location: à préciser !
+  location: Place des Vosges
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Jeudi_59_mars.2F28_avril_2016"
+
+- date_nd: Vendredi 60 mars
+  date_normal: 29 avril
+  date: 2016-04-29 10:00:00 +0200
+  hour: 18h - 03h
+  location: Place des Vosges
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Vendredi_60_mars.2F29_avril_2016"
+
+- date_nd: Samedi 61 mars
+  date_normal: 30 avril
+  date: 2016-04-30 10:00:00 +0200
+  hour: 14h - 03h
+  location: Place des Vosges
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Samedi_61_mars.2F30_avril_2016"
+
+- date_nd: Dimanche 62 mars
+  date_normal: 1er mai
+  date: 2016-05-01 10:00:00 +0200
+  hour: 14h - 01h
+  location: Place des Vosges
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Dimanche_62_mars.2F1er_mai_2016"
 

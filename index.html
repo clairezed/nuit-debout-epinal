@@ -6,20 +6,28 @@ image:
 ---
 
 <section>
-<h2>Les prochaines dates</h2>
-  <div class="tiles">
+  <h2>Les prochaines dates</h2>
+  <div class="tiles wrap">
+
+    <!-- ugly code to extract only future dates -->
+    {% assign counter = 0 %}
+    {% assign current_time = site.time | date: "%s" %}
 
     {% for night in site.data.agenda %}
-      <div class="tile tile-home">
-        <h2 class="tile-title">
-          <span class="tile-title-main ">{{ night.date_nd }} </span>
-          <span class="tile-title-subtitle">- {{ night.date_normal }} -</span>
-          </h2>
-        <p>{{ night.hour }}</p>
-        <p class="tile-excerpt">{{ night.location }}</p>
-      </div>
+      {% assign night_time = night.date | date: "%s" %}
+      {% if current_time < night_time and counter < 3 %}
+        {% assign counter = (counter + 1) %}
+        <div class="tile tile-home">
+          <h2 class="tile-title">
+            <span class="tile-title-main ">{{ night.date_nd }} </span>
+            <span class="tile-title-subtitle">- {{ night.date_normal }} -</span>
+            </h2>
+          <p class="tile-date">{{ night.hour }}</p>
+          <p class="tile-location">{{ night.location }}</p>
+          <a class="btn btn-secondary btn-block" target="_blank" href="{{ night.wiki_link }}" title="Programme et infos supplémentaires">En savoir plus</a>
+        </div>
+      {% endif %}
     {% endfor %}
-
 
   </div>
 </section>
