@@ -1,15 +1,26 @@
 - title: Animation
   symbol: animation
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-animation
+  short_description: "Organisation des ateliers"
   description: "Vous avez un atelier à proposer ? C'est à la commission animation qu'il faut vous adresser !"
   image:
     teaser: comanimation1.jpg
     features: [comanimation1.jpg, comanimation2.jpg]
 
+- title: Action
+  symbol: action
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-action
+  short_description: "Organisation des actions Nuit Debout Epinal"
+  description: "Coordination et impulsion des actions émergeant de Nuit Debout Epinal"
+  image:
+    # teaser: comanimation1.jpg
+    # features: [comanimation1.jpg, comanimation2.jpg]
+
 - title: Antipub
   symbol: antipub
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-antipub
   members: ["Stéphane", "Claire Z.", "Emmanuelle L.", "Cécilia H", "Elodie", "Brieuc M"]
+  short_description: "Discuter et agir contre la publicité"
   description: "Réflexions et actions autour de l'opposition à l'omniprésence de la publicité."
   image:
     # teaser: comanimation1.jpg
@@ -19,6 +30,7 @@
   symbol: convergencedesluttes
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-convergencedesluttes
   members: ["Réseau Rêve", "Dominique H", "Stéphane", "l'autre Léo P"]
+  short_description: "Liaison avec les luttes existantes"
   description: "Synchronisation des actions au sein de la nuit debout et en lien avec le tissu associatif existant"
   image:
     # teaser: comanimation1.jpg
@@ -28,6 +40,7 @@
   symbol: cuisine
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-cuisine
   members: ["Emmanuelle L.", "Cécilia H."]
+  short_description: "Organisation de la cantine participative"
   description: "C'est grâce à la commission cuisine qu'on peut se restaurer à prix libre à Nuit Debout Epinal !"
   image:
     teaser: comcuisine2.jpg
@@ -38,6 +51,7 @@
   symbol: documentation
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-documentation
   members: ["Isabelle", "Cécilia H.", "Julien H."]
+  short_description: "Gestion des ressources documentaires"
   description: "La commission documentation se charge de l'apport de ressources documentaires au sein de Nuit Debout Epinal (et notamment de Biblio Bonjour, mise à disposition de livres sur place)"
   image:
     teaser: comdocumentation.jpg
@@ -48,6 +62,7 @@
   symbol: environnement
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-environnement
   members: ["Bernard S", "Renée Lise", "Isabelle G.", "Emmanuelle L.", "Léandre B.", "Hélène B.", "Dominique H.", "Juliette", "Adrien", "Emma L.", "Bérénice", "Flora G."]
+  short_description: "Discussions et actions autour des enjeux environnementaux"
   description: "La commission environnement organise les actions et réflexions autour des thématiques environnementales, notamment l'eau et les forêts (enjeux locaux forts), et fait le lien avec les associations locales déjà actives sur le sujet."
   image:
     # teaser: comanimation1.jpg
@@ -57,7 +72,8 @@
   symbol: jardin
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-jardin
   members: ["Emmanuelle L.", "Stéphane", "Adrien", "Juliette", "Alice M.", "Jehanic", "Céline"]
-  description: "La commission jardin propose des actions autour de la végétation, nature en ville..."
+  short_description: "Réappropriation de la végétation en ville"
+  description: "La commission jardin propose des actions autour de la réappropriation de la végétation; Parmi les ateliers mis en place : dons et échanges de plants, bombes de graine..."
   image:
     teaser: comjardin2.jpg
     features: [comjardin2.jpg, comjardin3.jpg]
@@ -66,7 +82,8 @@
   symbol: languedebois
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-languedebois
   members: ["Antoine D.", "Léandre", "Agathe"]
-  description: ""
+  short_description: "Manipulation et détournement de la langue de bois"
+  description: "La langue de bois est un principe fondamental de ce qui gouverne le système même de notre langage. Constamment utilisée lors de discours officiels importants, meetings politiques, colloques divers, elle permet de mettre en place un dialecte rhétorique donnant l’impression de dire des choses alors que rien ne se dit concrètement. Son fonctionnement est simple, consistant en l’emploi de quelques mots-clés abstraits se présentant comme termes à sens profond. Pour exemples : Diagnostic partagé, Propriété, Partenariat, Démocratie, Habitants, Développement, Projet, Proximité, Acteurs, Local, Contrat, Biens communs, Interculturel, Lien social, mondialisation… Placez quelques uns de ces mots dans une phrase, ou mieux, construisez des phrases principalement avec ces mots, et vous rejoindrez l’emblème de ce fabuleux jargon institutionnel que l’on nomme la langue de bois."
   image:
     # teaser: comanimation1.jpg
     # features: [comlogistique1.jpg, comlogistique2.jpg]
@@ -75,6 +92,7 @@
   symbol: logistique
   coordination_link: https://chat.nuitdebout.fr/channel/epinal
   members: ["Renée Lise & Bernard", "Isabelle G.", "Juliette", "Emmanuelle L.", "Léo P.", "Pascal M.", "Mathieu"]
+  short_description: "Organisation du matériel, dé/montage, son..."
   description: "La commission logistique se charge de l'organisation au quotidien de l'occupation de la place : récupération et transport du matériel, stockage et installation..."
   image:
     teaser: comlogistique1.jpg
@@ -84,6 +102,7 @@
   symbol: musique
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-musique
   members: ["MP", "Joël", "Mathieu"]
+  short_description: "Gestion et organisation de concerts et d'animations musicales"
   description: "Gestion et organisation de concerts et d'animations musicales"
   image:
     # teaser: comanimation1.jpg
@@ -94,6 +113,7 @@
   symbol: media
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-media
   members: ["Stéphane", "Claire Z.", "Emmanuelle L.", "Julien D.", "Anabelle"]
+  short_description: "Communication interne et vers l'extérieur"
   description: "La commission média se charge des aspects de communication interne (outils de coordination...) et externe (wiki, captation photo et sonore, réseaux sociaux...)"
   image:
     # teaser: comanimation1.jpg
@@ -103,6 +123,7 @@
   symbol: projection
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-projection
   members: ["Brieuc M.", "Cécilia H.", "Géroux", "Isabelle G."]
+  short_description: "Programmation de films"
   description: "La commission projection gère la programmation des films (documentaires ou fictions) projetés."
   image:
     teaser: comprojection.jpg
@@ -112,6 +133,7 @@
   symbol: projetdesociete
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-projetdesociete
   members: ["l'autre Léo P", "Stéphane", "Cécilia"]
+  short_description: "Réflexions et débats autour de la société"
   description: "Réflexions et débats autour de la société"
   image:
     # teaser: comanimation1.jpg
@@ -120,18 +142,9 @@
 - title: Théâtre
   symbol: theatre
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-theatre
-  members: ["Adrien", "Emma", "Bérénice"]
+  members: ["Adrien", "Emma", "Bérénice","Joël", "Léandre", "Antoine", "Brieuc"]
+  short_description: "Actions théâtrales"
   description: ""
   image:
     # teaser: comanimation1.jpg
     # features: [comlogistique1.jpg, comlogistique2.jpg]
-
-- title: Théâtre radical
-  symbol: theatreradical
-  coordination_link: https://chat.nuitdebout.fr/channel/epinal-theatreradical
-  members: ["Joël", "Léandre", "Antoine", "Brieuc"]
-  description: ""
-  image:
-    # teaser: comanimation1.jpg
-    # features: [comlogistique1.jpg, comlogistique2.jpg]
-
