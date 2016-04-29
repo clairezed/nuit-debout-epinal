@@ -10,13 +10,11 @@ image:
   <div class="tiles wrap">
 
     <!-- ugly code to extract only future dates -->
-    {% assign counter = 0 %}
     {% assign current_time = site.time | date: "%s" %}
 
     {% for night in site.data.agenda %}
       {% assign night_time = night.date | date: "%s" %}
-      {% if current_time < night_time and counter < 3 %}
-        {% assign counter = (counter + 1) %}
+      {% if current_time <= night_time %}
         <div class="tile tile-home">
           <h2 class="tile-title">
             <span class="tile-title-main ">{{ night.date_nd }} </span>
