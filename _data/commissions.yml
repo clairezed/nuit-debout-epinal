@@ -57,6 +57,15 @@
     teaser: comdocumentation.jpg
     features: [comdocumentation.jpg]
 
+- title: Entrepreneuriat social
+  symbol: entrepreneuriatsocial
+  coordination_link: https://chat.nuitdebout.fr/channel/epinal-entrepreunariatsocial
+  members: []
+  short_description: "Réflexions autour d'un entrepreunariat non capitaliste"
+  description: "Le but de cette comission est de promouvoir et aider à s'orienter vers un \"Entreprenariat Parralléle\" loin de la spéculation. Ce mode d'organisation permet aussi d'accentuer la représentation de tous les acteurs. On peut décider de soutenir ces types de projets en \"investissant\" dans des parts, le but n'étant pas de génerer du dividende mais de devenir acteur d'une économie plus juste (pour les humains, pour la terre...)"
+  image:
+    # teaser: comanimation1.jpg
+    # features: [comlogistique1.jpg, comlogistique2.jpg]
 
 - title: Environnement
   symbol: environnement
