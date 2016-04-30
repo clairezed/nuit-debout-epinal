@@ -14,7 +14,7 @@ image:
 
     {% for night in site.data.agenda %}
       {% assign night_time = night.date | date: "%s" %}
-      {% if current_time <= night_time %}
+      {% if current_time < night_time %}
         <div class="tile tile-home">
           <h2 class="tile-title">
             <span class="tile-title-main ">{{ night.date_nd }} </span>
