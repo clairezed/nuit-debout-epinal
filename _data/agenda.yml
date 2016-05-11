@@ -3,61 +3,68 @@
   date: 2016-04-21 23:59:59 +0200
   hour: 18h - 01h
   location: Place des Vosges
-  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Jeudi_52_mars.2F21_avril_2016"
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal/52mars"
 
 - date_nd: Vendredi 53 mars
   date_normal: 22 avril
   date: 2016-04-22 23:59:59 +0200
   hour: 18h - 03h
   location: Place des Vosges
-  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Vendredi_53_mars.2F22_avril_2016"
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal/53mars"
 
 - date_nd: Samedi 54 mars
   date_normal: 23 avril
   date: 2016-04-23 23:59:59 +0200
   hour: 14h - 03h
   location: Place des Vosges
-  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Samedi_54_mars.2F23_avril_2016"
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal/54mars"
 
 - date_nd: Dimanche 55 mars
   date_normal: 24 avril
   date: 2016-04-24 23:59:59 +0200
   hour: 14h - 01h
   location: Place des Vosges
-  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Dimanche_55_mars.2F24_avril_2016"
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal/55mars"
 
 - date_nd: Jeudi 59 mars
   date_normal: 28 avril
   date: 2016-04-28 23:59:59 +0200
   hour: 18h - 01h
   location: Place des Vosges
-  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Jeudi_59_mars.2F28_avril_2016"
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal/59mars"
 
 - date_nd: Vendredi 60 mars
   date_normal: 29 avril
   date: 2016-04-29 23:59:59 +0200
   hour: 18h - 03h
   location: Place des Vosges
-  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Vendredi_60_mars.2F29_avril_2016"
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal/60mars"
 
 - date_nd: Samedi 61 mars
   date_normal: 30 avril
   date: 2016-04-30 23:59:59 +0200
   hour: 16h - 03h
   location: Place des Vosges
-  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Samedi_61_mars.2F30_avril_2016"
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal/61mars"
 
 - date_nd: Dimanche 62 mars
   date_normal: 1er mai
   date: 2016-05-01 23:59:59 +0200
   hour: 18h - 00h
   location: Place des Vosges
-  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Dimanche_62_mars.2F1er_mai_2016"
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal/62mars"
 
 - date_nd: Vendredi 67 mars
   date_normal: 6 mai
   date: 2016-05-06 23:59:59 +0200
   hour: 18h - 01h
   location: Place des Vosges
-  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal#Vendredi_67_mars_.2F_6_mai_2016"
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal/67mars"
+
+- date_nd: Vendredi 74 mars
+  date_normal: 13 mai
+  date: 2016-05-13 23:59:59 +0200
+  hour: 18h - 01h
+  location: Place des Vosges
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal/74mars"
 
