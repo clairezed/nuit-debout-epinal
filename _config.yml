@@ -5,7 +5,7 @@ description: le site de Nuit Debout Epinal
 logo: logoEpinal.jpg# 120x120 px default image used for Twitter summary card
 teaser: teaser.jpg # 400x250 px default teaser image used in image archive grid
 locale: fr
-url: http://www.nuitdeboutepinal.fr
+# url: http://www.nuitdeboutepinal.fr
 
 
 # Jekyll configuration
@@ -47,3 +47,7 @@ collections:
     output: true
     permalink: /:collection/:path/
     title: Commissions
+  faqs:
+    output: true
+    permalink: /:collection/:path/
+    title: Foire Aux Questions
