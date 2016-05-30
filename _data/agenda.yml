@@ -79,6 +79,15 @@
   date_normal: 27 mai
   date: 2016-05-27 23:59:59 +0200
   hour: 18h - 01h
+  theme: Nucléaire
   location: Place des Vosges
   wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal/88mars"
+
+- date_nd: Vendredi 95 mars
+  date_normal: 3 mai
+  date: 2016-06-03 23:59:59 +0200
+  hour: 18h - 23h
+  theme: Démocratie
+  location: Place des Vosges
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/Épinal/95mars"
 
