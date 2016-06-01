@@ -1,22 +1,29 @@
 ---
 layout: page
-title: Commissions
-permalink: /commissions/
-date: 2015-09-23T14:11:44-04:00
-modified: 2016-03-03T10:29:27-05:00
+title: Actualités
+permalink: /actus/
 ---
 
-<p> Liste des commissions lancées à Nuit Debout Epinal.</p>
-<p><em>
-  N'hésitez pas à vous manifester si vous souhaitez participer à l'une des commissions ou en proposer une autre !
-</em></p>
+  <section>
+    <div class="tiles wrap">
+      {% for post in site.posts %}
+        <div class="tile post-style col-3">
+          {% include post-tile.html %}
+        </div>
 
-<div class="tiles">
-{% assign sorted_commissions = (site.data.commissions | sort: 'title') %}
+        {% endfor %}
+    </div>
+  </section>
 
 
-{% for commission in sorted_commissions %}
-  <article class="tile col-3" itemscope itemtype="http://schema.org/Article">
+<!-- {% for post in site.po %}
+<div class="faq-container">
+  <h2>{{faq.title}}</h2>
+  <div class="faq-description-wrapper">
+  <p>{{ faq.excerpt }}</p>
+  </div>
+</div> -->
+ <!--  <article class="faq" itemscope itemtype="http://schema.org/Article">
     <a href="{{ site.url }}/commissions/{{commission.symbol}}" title="{{ commission.title }}" class="post-teaser">
       {% if commission.image.teaser %}
         <img src="{{ site.url }}/images/{{ commission.image.teaser }}" alt="teaser" itemprop="image">
@@ -34,6 +41,6 @@ modified: 2016-03-03T10:29:27-05:00
     <a class="btn btn-secondary" target='_blank' href="{{ commission.coordination_link }}" title="Contacter ou participer à la commission {{commission.title}}">Contacter</a>
 
     </div>
-  </article>
+  </article> -->
 {% endfor %}
-</div>
+

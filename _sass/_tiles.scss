@@ -4,34 +4,31 @@
 
 .tile {
   background-color: $nde-red;
+  color: #fff;
   padding: 20px;
   @include outer-container;
   margin-bottom: $gutter;
+  text-align: center;
+  p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  .btn {
+    margin-bottom: 0;
+  }
   @include media($micro) {
     @include fill-parent;
   }
-  @include media(new-breakpoint(min-width em(480) 12)) {
-    @include span-columns(4);
-    @include omega(3n);
-  }
-  &.tile-home {
-    // @include span-columns(4);
-    text-align: center;
-    p {
-      margin-top: 10px;
-      margin-bottom: 10px;
-    }
-    .btn-block {
-      margin-top: 1.5rem;
-      margin-bottom: 0;
-    }
-  }
-  .entry-date {
+  .tile-date {
     @include font-size(16,no);
-    color: darken($text-color,25);
+    color: lighten($text-color-dark, 25%);
+    float: left;
+    line-height: 2.5;
   }
   .tile-title {
     text-align: center;
+    margin-bottom: 1.5rem;
     span {
       display: block;
     }
@@ -42,6 +39,12 @@
   }
   .tile-excerpt {
     @include font-size(16);
+  }
+  .tile-footer{
+    margin-top: 1.5rem;
+    .btn{
+      float: right;
+    }
   }
   .tile-teaser {
     position: relative;
@@ -64,3 +67,62 @@
     }
   }
 }
+
+.tile.post-style {
+  background-color: #fffcf4;
+  color: $text-color-dark;
+  p {
+    text-align: left;
+  }
+  a {
+    @include hover-darken(lighten($nde-blue, 20));
+  }
+  a.btn {
+    color: #fff;
+  }
+  .tile-title {
+    a {
+      @include hover-darken($nde-red);
+    }
+  }
+  .tile-location {
+    margin-top: 1.5rem;
+  }
+}
+
+.tile{
+  &.agenda-style {
+    padding: 15px;
+    @include outer-container;
+    margin-bottom: $gutter;
+    text-align: center;
+    p {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    @include media($micro) {
+      @include fill-parent;
+    }
+    .tile-title {
+      text-align: center;
+      span {
+        display: block;
+      }
+      @include font-size(20,no);
+    }
+    .tile-location {
+      line-height: 1.1;
+      @include font-size(16,no);
+    }
+    .tile-theme-name {
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+    .btn-secondary {
+      background-color: $nde-blue;
+    }
+  }
+}
+
+
+

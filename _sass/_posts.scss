@@ -1,0 +1,16 @@
+.post-main {
+  padding: 1rem 3rem;
+  background-color: #fffcf4;
+  color: $text-color-dark;
+  margin-bottom: 1rem;
+  .post-header {
+    color: $nde-red;
+  }
+  .post-footer {
+    @include font-size(16,no);
+    color: lighten($text-color-dark, 25%);
+  }
+    a {
+    @include hover-darken(lighten($nde-blue, 20));
+  }
+}

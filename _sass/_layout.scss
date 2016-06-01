@@ -344,12 +344,65 @@
 	padding-bottom: $gutter;
 	font-family: $alt-font;
   /* Copyright text */
-	.copyright {
-		@include font-size(12);
+	p, li {
+		@include font-size(14);
 		color: lighten($black,60);
-		a {
-			color: lighten($black,60);
-			text-decoration: none;
-		}
+		line-height: 1;
+		margin: 1rem 0;
 	}
+	a {
+		@include hover-darken($link-color);
+	}
+}
+
+
+/* home grid
+	=================================================================== */
+
+.col-8 {
+  // background-color: red;
+  // height: 50px;
+  // width: flex-grid(8);        // returns (315px / 995px) = 31.65829%;
+  // margin-left: flex-gutter(); // returns (25px / 995px) = 2.51256%;
+  @include span-columns(8);
+
+  // p {
+  //   width: flex-grid(2, 4);  // returns (145px / 315px) = 46.031746%;
+  //   float: left;
+  //   margin: flex-gutter(4);  // returns (25px / 315px) = 7.936508%;
+  // }
+
+  // blockquote {
+  //   float: left;
+  //   width: flex-grid(2, 4); // returns (145px / 315px) = 46.031746%;
+  // }
+}
+
+.col-4 {
+  // background-color: red;
+  // height: 50px;
+	// width: flex-grid(4);        // returns (315px / 995px) = 31.65829%;
+  // margin-left: flex-gutter(); // returns (25px / 995px) = 2.51256%;
+  @include span-columns(4);
+}
+
+
+.col-1{
+  @include media(new-breakpoint(min-width em(480) 12)) {
+    @include span-columns(12);
+    @include omega(1n);
+  }
+}
+.col-2{
+  @include media(new-breakpoint(min-width em(480) 12)) {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+}
+
+.col-3{
+  @include media(new-breakpoint(min-width em(480) 12)) {
+    @include span-columns(4);
+    @include omega(3n);
+  }
 }

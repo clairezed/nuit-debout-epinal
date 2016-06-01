@@ -1,0 +1,8 @@
+<h2 class="tile-title">
+  <a class="tile-title-main" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+</h2>
+<p class="tile-location"> {{ post.excerpt }} </p>
+<div class="tile-footer">
+  <span class="tile-date"><i class="fa fa-calendar"></i> {{ post.date | date: "%-d/%m/%Y" }}</span>
+  <a class="btn btn-primary" href="{{ post.url | prepend: site.baseurl }}" title="Programme et infos supplémentaires">Lire la suite</a>
+</div>

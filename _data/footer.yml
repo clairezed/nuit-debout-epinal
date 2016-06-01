@@ -1,4 +1,10 @@
 # Footer navigation links
 
-- title:
-  url:
+- title: Toutes les actus
+  url: '/actus/'
+# - title: Toutes les dates
+#   url: test
+- title: Revue de presse
+  url: /revue-de-presse/
+# - title: Contact
+#   url: test

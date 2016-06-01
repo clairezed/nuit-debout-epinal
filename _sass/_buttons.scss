@@ -35,6 +35,9 @@
 	@extend .btn;
 	background-color: $nde-red;
 	color: $text-color;
+	a{
+		color: $white;
+	}
 	&:visited,
 	&:active {
 		color: $text-color;
