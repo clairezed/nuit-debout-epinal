@@ -2,7 +2,7 @@
 layout: post
 title:  "Rassemblement en réaction au 49.3"
 date:   2016-05-17 07:46:41 +0100
-categories: action
+categories: media
 ---
 
 Rassemblement improvisé place des Vosges contre le passage en force de la Loi Travail par le 49.3 !

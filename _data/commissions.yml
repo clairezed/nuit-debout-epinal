@@ -21,10 +21,10 @@
   coordination_link: https://chat.nuitdebout.fr/channel/epinal-antipub
   members: ["Stéphane", "Claire Z.", "Emmanuelle L.", "Cécilia H", "Elodie", "Brieuc M"]
   short_description: "Discuter et agir contre la publicité"
-  description: "Réflexion autour de la publicité et de sa présence dans notre environnement. L'équipe travaillant actuellement constate (et conteste !) son omniprésence et s'engage donc dans des actions d'information publique et de protestation."
+  description: "Réflexion autour de la publicité et de sa présence dans notre environnement."
   image:
-    teaser: comantipub1.jpg
-    features: [comantipub1po.jpg, comantipub2.jpg]
+    teaser: comantipub1_thumb.jpg
+    features: [comantipub1_s.jpg, comantipub2_s.jpg]
 
 # - title: Convergence des luttes
 #   symbol: convergencedesluttes

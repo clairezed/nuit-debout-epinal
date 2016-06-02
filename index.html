@@ -27,48 +27,43 @@ image:
           <div class="tile post-style col-2">
             {% include post-tile.html %}
           </div>
-      <!--       <li>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-              <h2>
-                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h2>
-            </li> -->
-          {% endfor %}
+        {% endfor %}
       </div>
+    <a class="btn btn-primary pull-right" href="{{ domain }}/actus/" title="Voir toutes les actus">Voir toutes les actus</a>
+<!--     <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a> -->
     </section>
   </div>
 
-<div class="col-4">
-  <section>
-    <h2>Les prochaines dates</h2>
-    <div class="tiles wrap">
+  <div class="col-4">
+    <section>
+      <h2>Les prochaines dates</h2>
+      <div class="tiles wrap">
 
-      <!-- ugly code to extract only future dates -->
-      {% assign current_time = site.time | date: "%s" %}
+        <!-- ugly code to extract only future dates -->
+        {% assign current_time = site.time | date: "%s" %}
 
-      {% for night in site.data.agenda %}
-        {% assign night_time = night.date | date: "%s" %}
-        {% if current_time < night_time %}
-          <div class="tile agenda-style col-1">
-            <h2 class="tile-title">
-              <span class="tile-title-main ">{{ night.date_nd }} ({{ night.date_normal }}) </span>
-            </h2>
-            <p class="tile-location">{{ night.location }}, {{ night.hour }}</p>
-            {% if night.theme %}
-              <p class='tile-theme'>
-              Thème :
-                <span class='tile-theme-name'>{{ night.theme}}</span>
-              </p>
-            {% endif %}
-            <a class="btn btn-secondary" target="_blank" href="{{ night.wiki_link }}" title="Programme et infos supplémentaires">Voir le détail</a>
-          </div>
-        {% endif %}
-      {% endfor %}
+        {% for night in site.data.agenda %}
+          {% assign night_time = night.date | date: "%s" %}
+          {% if current_time < night_time %}
+            <div class="tile agenda-style col-1">
+              <h2 class="tile-title">
+                <span class="tile-title-main ">{{ night.date_nd }} ({{ night.date_normal }}) </span>
+              </h2>
+              <p class="tile-location">{{ night.location }}, {{ night.hour }}</p>
+              {% if night.theme %}
+                <p class='tile-theme'>
+                Thème :
+                  <span class='tile-theme-name'>{{ night.theme}}</span>
+                </p>
+              {% endif %}
+              <a class="btn btn-secondary" target="_blank" href="{{ night.wiki_link }}" title="Programme et infos supplémentaires">Voir le détail</a>
+            </div>
+          {% endif %}
+        {% endfor %}
 
-    </div>
-  </section>
-</div>
+      </div>
+    </section>
+  </div>
 </div>
 
 
