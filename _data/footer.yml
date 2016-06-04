@@ -1,9 +1,13 @@
 # Footer navigation links
 
-- title: Toutes les actus
+- title: Les actus
   url: '/actus/'
-# - title: Toutes les dates
-#   url: test
+- title: Les rassemblements
+  url: /rassemblements/
+- title: Les commissions
+  url: /commissions/
+- title: Foire aux questions
+  url: /faq/
 - title: Revue de presse
   url: /revue-de-presse/
 # - title: Contact

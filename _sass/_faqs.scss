@@ -1,0 +1,42 @@
+.faq-container{
+  background-color: $nde-red;
+  color: #fff;
+  padding: 20px;
+  @include outer-container;
+  margin-bottom: 22px;
+  h3 {
+    font-size: 1.2rem;
+  }
+}
+
+.faq-header{
+  h2{
+    display: inline-block;
+    max-width: 90%;
+    font-size: 1.5rem;
+    line-height: 1.3;
+    margin: 0;
+    cursor: pointer;
+  }
+  .faq-dropdown{
+    display: inline-block;
+    max-width: 10%;
+    background-color: #fff;
+    color: $nde-red;
+    padding: 5px 10px;
+    font-weight: bold;
+    float: right;
+    a {
+    color: $nde-red;
+
+    }
+  }
+
+}
+
+  .faq-answer{
+    display: none;
+    a {
+      @include hover-darken(lighten($nde-blue, 50));
+    }
+  }

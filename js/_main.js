@@ -12,8 +12,15 @@ $(document).ready(function(){
 
 // FitVids
 $(document).ready(function(){
-	// Target your .container, .wrapper, .post, etc.
-	$("#main").fitVids();
+  // Target your .container, .wrapper, .post, etc.
+  $("#main").fitVids();
+});
+
+// slideFaq
+$(document).ready(function(){
+  $("[data-slide]").on('click', function(e){
+    $(this).parents('.faq-container').find('[data-slide-target]').slideToggle();
+  });
 });
 
 // Table of Contents title. Change text to localize

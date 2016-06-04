@@ -4,15 +4,22 @@ title: Foire aux questions
 permalink: /faq/
 ---
 
-<p> Tout ce que vous avez toujours voulu savoir sur Nuit Debout Epinal sans oser le demander !</p>
+<p>Tout ce que vous avez toujours voulu savoir sur Nuit Debout Epinal sans oser le demander !</p>
 
-{% assign sorted_faqs = (site.faqs | sort: 'position') %}
+{% assign sorted_faqs = (site.faqs | where: 'published', 'true' | sort: 'position') %}
 
 {% for faq in sorted_faqs %}
 <div class="faq-container">
-  <h2>{{faq.title}}</h2>
-  <div class="faq-description-wrapper">
-  <p>{{ faq.excerpt }}</p>
+  <div class="faq-header">
+    <h2 data-slide="">{{faq.title}}</h2>
+    <div class="faq-dropdown">
+      <a href="javascript:void(0);" data-slide="">
+        <i class="fa fa-chevron-down"></i> Déplier
+      </a>
+    </div>
+  </div>
+  <div class="faq-answer" data-slide-target=''>
+  <p>{{ faq.content }}</p>
   </div>
 </div>
  <!--  <article class="faq" itemscope itemtype="http://schema.org/Article">
