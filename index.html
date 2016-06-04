@@ -29,50 +29,72 @@ image:
           </div>
         {% endfor %}
       </div>
-    <a class="btn btn-primary pull-right" href="{{ domain }}/actus/" title="Voir toutes les actus">Voir toutes les actus</a>
-<!--     <a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank"{% endif %}>{{ link.title }}</a> -->
+      <a class="btn btn-primary pull-right" href="{{ domain }}/actus/" title="Voir toutes les actus">Voir toutes les actus</a>
     </section>
   </div>
 
   <div class="col-4">
+    {% assign current_time = site.time | date: "%s" %}
+
     <section>
       <h2>Les prochaines dates</h2>
       <div class="tiles wrap">
-
         <!-- ugly code to extract only future dates -->
-        {% assign current_time = site.time | date: "%s" %}
 
         {% for night in site.data.agenda %}
           {% assign night_time = night.date | date: "%s" %}
           {% if current_time < night_time %}
-            <div class="tile agenda-style col-1">
-              <h2 class="tile-title">
-                <span class="tile-title-main ">{{ night.date_nd }} ({{ night.date_normal }}) </span>
-              </h2>
-              <p class="tile-location">{{ night.location }}, {{ night.hour }}</p>
-              {% if night.theme %}
-                <p class='tile-theme'>
-                Thème :
-                  <span class='tile-theme-name'>{{ night.theme}}</span>
-                </p>
-              {% endif %}
-              <a class="btn btn-secondary" target="_blank" href="{{ night.wiki_link }}" title="Programme et infos supplémentaires">Voir le détail</a>
-            </div>
+            {% include rassemblement-tile.html col_count=1 %}
           {% endif %}
         {% endfor %}
-
       </div>
+      <a class="btn btn-primary" href="{{ domain }}/rassemblements/" title="Voir toutes les dates">
+        <i class="fa fa-th-list"></i> Toutes les dates
+      </a>
+    </section>
+
+
+
+    <section>
+      <h3>Agenda convergence</h3>
+
+<!--         {% for event in site.data.convergence | future('date') %}
+        <div class="review-header">
+          <span class="review-date">{{ event.date | date: "%d/%m/%Y" }} - </span>
+          <span class="review-title">{{event.title}} </span>
+        </div>
+         {% endfor %} -->
+
+
+
+        <ul class="list event-list ">
+          {% for event in site.data.convergence %}
+            {% assign event_time = event.date | date: "%s" %}
+            {% if current_time <= event_time %}
+
+                  <li class="event-tile">
+                    <div class="event-header">
+                      <span class="event-date">{{ event.date | date: "%d/%m/%Y" }}</span>
+                      {% if event.organizer %}
+                      <span class="event-organizer">- {{event.organizer}}</span>
+                      {% endif %}
+                    </div>
+                    <div class="event-title">
+                      <span class="">{{event.title}} </span>
+                    </div>
+                     <div class="event-location"><i class="fa fa-map-marker"></i> {{ event.location }}</div>
+                    <a href="{{event.link_url}}" target="_blank">Plus d'infos</a>
+                  </li>
+
+
+             {% endif %}
+
+          {% endfor %}
+        </ul>
     </section>
   </div>
+
 </div>
-
-
-<!-- <section>
-  <div class="wrap">
-    <div class="col-8"></div>
-    <div class="col-4"></div>
-  </div>
-</section> -->
 
 
 

@@ -1,22 +1,62 @@
 - title: Fête de la bio diversité
   location: "Parc du Chateau, Epinal"
-  date: 2016-06-03
+  date: 2016-06-03 23:59:59 +0200
   link_url: "http://www.epinal.fr/homepage/actualites/5118-la-biodiversite-tous-concernes.html"
 
 - title: Fête de la bio diversité
   location: "Parc du Chateau, Epinal"
-  date: 2016-06-04
+  date: 2016-06-04 23:59:59 +0200
   link_url: "http://www.epinal.fr/homepage/actualites/5118-la-biodiversite-tous-concernes.html"
 
 - title: 200 000 pas à Bure
   location: "Bure, Sud Meuse"
-  date: 2016-06-05
+  date: 2016-06-05 23:59:59 +0200
   link_url: http://100000pasabure.over-blog.com/
+
+- title : Atelier d'autoconstruction
+  organizer: Epinal en Transition
+  date : 2016-06-11
+  location : Darnieulles
+  link_url : http://epinal-en-transition.fr/agenda/atelier-autoconstruction-11/
+
+- title: Réunion Monnaie locale Vosges
+  date: 2016-06-11
+  organizer : Collectif monnaie locale Vosges
+  location : "salle de la Baudenotte, Saut le Cerf, Epinal"
+  link_url : http://epinal-en-transition.fr/agenda/monnaie-locale-vosges-constitution-des-groupes-de-reflexion/
+
+- title : Atelier d'autoconstruction
+  organizer: Epinal en Transition
+  date : 2016-06-25
+  location : Darnieulles
+  link_url : http://epinal-en-transition.fr/agenda/atelier-autoconstruction-11/
+
+- title:  Le jugement du procès d'Antoine Deltour
+  date: 2016-06-29 15 h
+  organizer : Jean-Luc Tonnerieux
+  location : "Luxembourg (départ d'Epinal, car, Luxembourg et retour)"
+  link_url : https://revesvosges.wordpress.com/agenda/
+
 
 - title: Fête de la transition
   location: Les Voivres 88240
-  date: 2016-07-10
+  date: 2016-07-10 23:59:59 +0200
   link_url: http://transitiondici.pour-toi.fr/
+
+- title: Fête de la bio
+  date: 2016-07-14
+  organizer :
+  location : Tendon
+  link_url : http://www.association-oiseaux-nature.com/events/event/fete-de-la-bio-a-tendon/
+
+- title: Marché nocturne
+  date: 2016-07-22  17h
+  organizer :
+  location : Girmont Val d'Ajol
+  link_url : http://www.association-oiseaux-nature.com/events/event/marche-nocturne-dete-au-girmont-val-d-ajol/
+
+
+
 
 
 

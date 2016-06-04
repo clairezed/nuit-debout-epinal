@@ -20,3 +20,25 @@ Listes
     }
   }
 }
+
+.event-list {
+  padding: 0;
+  .event-tile {
+    margin-bottom: 28px;
+    &:after {
+      content: "";
+      display:block;
+      border-bottom: 3px solid white;
+      width: 33%;
+      margin-top: 12px;
+    }
+  }
+  .event-header{
+    // font-style: italic;
+
+  }
+  .event-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,13 @@
+<div class="tile agenda-style col-{{ include.col_count }}">
+  <h2 class="tile-title">
+    <span class="tile-title-main ">{{ night.date_nd }} ({{ night.date_normal }}) </span>
+  </h2>
+  <p class="tile-location">{{ night.location }}, {{ night.hour }}</p>
+  {% if night.theme %}
+    <p class='tile-theme'>
+    Thème :
+      <span class='tile-theme-name'>{{ night.theme}}</span>
+    </p>
+  {% endif %}
+  <a class="btn btn-secondary" target="_blank" href="{{ night.wiki_link }}" title="Programme et infos supplémentaires">Voir le détail</a>
+</div>

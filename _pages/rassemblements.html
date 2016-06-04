@@ -1,0 +1,17 @@
+---
+layout: page
+title: Rassemblements
+permalink: /rassemblements/
+date: 2015-09-23T14:11:44-04:00
+---
+
+<p>Tous les rassemblements Nuit Debout à Epinal</p>
+
+
+<div class="tiles wrap">
+  {% assign sorted_night = (site.data.agenda | sort: 'date') | reverse %}
+
+  {% for night in sorted_night %}
+    {% include rassemblement-tile.html  col_count=3 %}
+  {% endfor %}
+</div>
