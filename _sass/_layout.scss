@@ -406,3 +406,9 @@
     @include omega(3n);
   }
 }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
