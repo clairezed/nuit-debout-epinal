@@ -1,14 +1,20 @@
 prose:
-  # rooturl: '_posts'
   siteurl: 'http://www.nuitdeboutepinal.fr/'
-  # relativeLinks: 'http://prose.github.io/starter/links.jsonp'
   media: 'images'
   ignore:
-    - index.md
+    - package.json
+    - atom.xml
+    - favison.ico
     - _config.yml
+    - /_sass
+    - /\..*
+    - /_config.yml
+    - /atom.xml
+    - /README.md
     - /_layouts
     - /_includes
-    - /_sass
+    - /public
+    - /blog
   metadata:
     _posts:
       - name: "layout"
