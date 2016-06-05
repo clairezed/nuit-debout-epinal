@@ -1,20 +1,7 @@
 prose:
   siteurl: 'http://www.nuitdeboutepinal.fr/'
   media: 'images'
-  ignore: [
-    'package.json',
-    'atom.xml',
-    'favicon.ico',
-    '_config.yml',
-    '/_sass','/\..*',
-    '/_config.yml',
-    '/atom.xml',
-    '/README.md'
-    '/_layouts',
-    '/_includes',
-    '/public',
-    '/blog'
-  ]
+  ignore: [ 'package.json', '/_includes']
   metadata:
     _posts:
       - name: "layout"
