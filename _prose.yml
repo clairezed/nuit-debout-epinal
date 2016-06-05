@@ -47,3 +47,7 @@ prose:
             - name: "Communication"
               value: "communication"
           alterable: true
+      - name: "date"
+        field:
+          element: "text"
+          value: "CURRENT_DATETIME"
