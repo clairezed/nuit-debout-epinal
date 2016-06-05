@@ -60,8 +60,8 @@ prose:
       - name: "symbol"
         field:
           element: "select"
-          label: "Mot clé"
-          placeholder: "Choisissez le mot-clé"
+          label: "Titre commission"
+          placeholder: "Choisissez le titre"
           options:
             - name: "Animation"
               value: "animation"
@@ -87,3 +87,24 @@ prose:
               value: "projection"
             - name: "Projet de société"
               value: "projetdesociete"
+    _faqs:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "faq"
+      - name: "position"
+        field:
+          element: "number"
+          help: "Détermine l'ordre d'affichage de la question sur la page (comparer aux positions des autres questions !)"
+          type: "number"
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
+      - name: "published"
+        field:
+          element: "button"
+          label: "Statut"
+          help: "Si publié, la question est visible"
+          on: "Publié"
+          off: "Caché"
