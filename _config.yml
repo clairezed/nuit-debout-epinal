@@ -56,7 +56,7 @@ collections:
 prose:
   siteurl: 'http://www.nuitdeboutepinal.fr/'
   media: 'images'
-  ignore: [ "/_includes", "/_layouts", "/_sass", "/_templates", "/css", "/fonts", "/js", ".editorconfig", ".gitignore", ".jshintrc", "CNAME", "Gemfile", "Gemfile.lock", "Gruntfile.js", "LICENSE", "README.md", "apple-touch-icon-precomposed.png", "favicon.ico", "package.json", "atom.xml", "_config.yml"]
+  ignore: [ "/_includes", "/_layouts", "/_sass", "/_templates", "/css", "/fonts", "/js", "/images", ".editorconfig", ".gitignore", ".jshintrc", "CNAME", "Gemfile", "Gemfile.lock", "Gruntfile.js", "LICENSE", "README.md", "apple-touch-icon-precomposed.png", "favicon.ico", "package.json", "atom.xml", "_config.yml"]
   metadata:
     _posts:
       - name: "layout"
@@ -67,3 +67,33 @@ prose:
         field:
           element: "text"
           label: "Titre"
+      - name: "categories"
+        field:
+          element: "select"
+          label: "Catégorie"
+          placeholder: "Choisissez une categorie"
+          options:
+            - name: "Animation"
+              value: "animation"
+            - name: "Action"
+              value: "action"
+            - name: "Antipub"
+              value: "antipub"
+            - name: "Cuisine"
+              value: "cuisine"
+            - name: "Documentation"
+              value: "documentation"
+            - name: "Entrepreneuriat Social"
+              value: "entrepreneuriatsocial"
+            - name: "Environnement"
+              value: "environnement"
+            - name: "Jardin"
+              value: "jardin"
+            - name: "Logistique"
+              value: "logistique"
+            - name: "Media"
+              value: "media"
+            - name: "Projection"
+              value: "projection"
+            - name: "Projet de société"
+              value: "projetdesociete"
