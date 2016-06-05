@@ -56,7 +56,7 @@ collections:
 prose:
   siteurl: 'http://www.nuitdeboutepinal.fr/'
   media: 'images'
-  ignore: [ "/_includes", "/_layouts", "/_sass", "/templates", "/css", "/fonts", "/js", "atom.xml", "_config.yml"]
+  ignore: [ "/_includes", "/_layouts", "/_sass", "/_templates", "/css", "/fonts", "/js", ".editorconfig", ".gitignore", ".jshintrc", "CNAME", "Gemfile", "Gemfile.lock", "Gruntfile.js", "LICENSE", "README.md", "apple-touch-icon-precomposed.png", "favicon.ico", "package.json", "atom.xml", "_config.yml"]
   metadata:
     _posts:
       - name: "layout"
