@@ -56,7 +56,12 @@ collections:
 prose:
   siteurl: 'http://www.nuitdeboutepinal.fr/'
   media: 'images'
-  ignore: [ "atom.xml", "/_includes", "_config.yml", "/_layouts"]
+  ignore:
+    - atom.xml
+    - _config.yml
+    - /_includes
+    - /_pages
+    - /_layouts
   metadata:
     _posts:
       - name: "layout"
