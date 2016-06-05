@@ -7,6 +7,7 @@ image:
 
 <div class="wrap">
 
+<!-- Block hearder call to action-->
 <!--   <div class="notice">
     <h3>Avoir plus d'infos et participer</h3>
     <p> Si vous souhaitez vous impliquer, n'hésitez pas à nous rejoindre place des Vosges<br> ou à nous contacter via twitter, facebook, email !</p>
@@ -34,30 +35,28 @@ image:
     </section>
 
     <section>
-  <h2>Avoir plus d'infos et participer</h2>
-  <p> Si vous souhaitez vous impliquer, n'hésitez pas à nous rejoindre place des Vosges<br> ou à nous contacter via twitter, facebook, email !</p>
-  <div class="center">
-    <a class="btn btn-primary" href="{{ domain }}/commissions/">Contacter et participer aux commissions </a>
+      <h2>Avoir plus d'infos et participer</h2>
+      <p> Si vous souhaitez vous impliquer, n'hésitez pas à nous rejoindre place des Vosges<br> ou à nous contacter via twitter, facebook, email !</p>
+      <div class="center">
+        <a class="btn btn-primary" href="{{ domain }}/commissions/">Contacter et participer aux commissions </a>
+      </div>
+      <ul class="list link-list">
+        <li>
+          <span class="link-title">Mail contact : </span>
+          <a href="mailto:nuitdebout.epinal@openmailbox.org">nuitdebout.epinal@openmailbox.org</a>
+        </li>
+      </ul>
+      <ul class="list link-list">
+        {% for link in site.data.nde-links %}
+        <li>
+          <span class="link-title">{{link.title}} : </span>
+          <a href="{{link.url}}">{{link.url}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+
+    </section>
   </div>
-  <ul class="list link-list">
-    <li>
-      <span class="link-title">Mail contact : </span>
-      <a href="mailto:nuitdebout.epinal@openmailbox.org">nuitdebout.epinal@openmailbox.org</a>
-    </li>
-  </ul>
-  <ul class="list link-list">
-    {% for link in site.data.nde-links %}
-    <li>
-      <span class="link-title">{{link.title}} : </span>
-      <a href="{{link.url}}">{{link.url}}</a>
-    </li>
-    {% endfor %}
-  </ul>
-
-</section>
-  </div>
-
-
 
 
 
@@ -82,19 +81,8 @@ image:
     </section>
 
 
-
     <section>
       <h3>Agenda convergence</h3>
-
-<!--         {% for event in site.data.convergence | future('date') %}
-        <div class="review-header">
-          <span class="review-date">{{ event.date | date: "%d/%m/%Y" }} - </span>
-          <span class="review-title">{{event.title}} </span>
-        </div>
-         {% endfor %} -->
-
-
-
         <ul class="list event-list ">
           {% for event in site.data.convergence %}
             {% assign event_time = event.date | date: "%s" %}

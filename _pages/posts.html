@@ -14,33 +14,5 @@ permalink: /actus/
         {% endfor %}
     </div>
   </section>
-
-
-<!-- {% for post in site.po %}
-<div class="faq-container">
-  <h2>{{faq.title}}</h2>
-  <div class="faq-description-wrapper">
-  <p>{{ faq.excerpt }}</p>
-  </div>
-</div> -->
- <!--  <article class="faq" itemscope itemtype="http://schema.org/Article">
-    <a href="{{ site.url }}/commissions/{{commission.symbol}}" title="{{ commission.title }}" class="post-teaser">
-      {% if commission.image.teaser %}
-        <img src="{{ site.url }}/images/{{ commission.image.teaser }}" alt="teaser" itemprop="image">
-      {% else %}
-        <img src="{{ site.url }}/images/{{ site.teaser }}" alt="teaser" itemprop="image">
-      {% endif %}
-    </a>
-    {% if commission.date %}<p class="entry-date date published"><time datetime="{{ commission.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ commission.date | date: "%B %d, %Y" }}</time></p>{% endif %}
-    <h2 class="post-title" itemprop="name">
-      <a href="{{ site.url }}/commissions/{{commission.symbol}}">{{ commission.title }}</a>
-    </h2>
-    <p class="post-excerpt" itemprop="description">{{ commission.short_description | strip_html | truncate: 100 }}</p>
-    <div class="inline-btn">
-    <a class="btn btn-secondary" href="{{ site.url }}/commissions/{{commission.symbol}}" title="Voir la page de la commission {{commission.title}}">Voir la page</a>
-    <a class="btn btn-secondary" target='_blank' href="{{ commission.coordination_link }}" title="Contacter ou participer à la commission {{commission.title}}">Contacter</a>
-
-    </div>
-  </article> -->
 {% endfor %}
 

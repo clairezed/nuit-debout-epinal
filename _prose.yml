@@ -1,7 +1,7 @@
 prose:
   siteurl: 'http://www.nuitdeboutepinal.fr/'
   media: 'images'
-  ignore: [ "/_includes", "/_layouts", "/_sass", "/_templates", "/css", "/fonts", "/js", "/images", ".editorconfig", ".gitignore", ".jshintrc", "CNAME", "Gemfile", "Gemfile.lock", "Gruntfile.js", "LICENSE", "README.md", "apple-touch-icon-precomposed.png", "favicon.ico", "package.json", "atom.xml", "_config.yml"]
+  ignore: [ "/_includes", "/_layouts", "/_sass", "/_templates", "/css", "/fonts", "/js", "/images", ".editorconfig", ".gitignore", ".jshintrc", "CNAME", "Gemfile", "Gemfile.lock", "Gruntfile.js", "LICENSE", "README.md", "apple-touch-icon-precomposed.png", "favicon.ico", "package.json", "atom.xml", "_config.yml", "/_data/footer.yml", "/_data/messages.yml", "/_data/navigation.yml"]
   metadata:
     _posts:
       - name: "layout"
@@ -103,7 +103,7 @@ prose:
           label: "title"
       - name: "published"
         field:
-          element: "button"
+          element: "checkbox"
           label: "Statut"
           help: "Si publié, la question est visible"
           on: "Publié"
