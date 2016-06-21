@@ -20,3 +20,12 @@ Quelques articles de presse :
 * [Reportage Vosges Télévision](http://www.vosgestelevision.tv/info/info/En_bref-nJJ9EcBCPQ)
 * [Vosges Matin](http://www.vosgesmatin.fr/edition-d-epinal/2016/05/13/la-carmagnole-devant-le-medef)
 * [Actu88](http://www.actu88.fr/nuit-debout-fait-chanter-le-medef/)
+
+
+
+![medef]({{ site.url }}/images/medef_01.jpg)
+
+
+---
+
+*Photos : [Xavier Khlifi](http://www.kxproduction.com)*

@@ -26,3 +26,6 @@ Elle a permis la projection :
 
 
 
+---
+
+*Photos : Emmanuelle Lescouët*

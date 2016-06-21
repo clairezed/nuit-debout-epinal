@@ -16,3 +16,6 @@ Le repas est distribué à prix libre sur la place des Vosges et une cagnotte es
 
 
 [lien-wiki]:  https://wiki.nuitdebout.fr/wiki/Villes/%C3%89pinal/Cuisine
+
+---
+*Photos : Emmanuelle Lescouët*
