@@ -90,3 +90,12 @@
   theme: Démocratie
   location: Place de la Chipotte
   wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/Épinal/95mars"
+
+
+- date_nd: Dimanche 125 mars
+  date_normal: 3 juillet
+  date: 2016-07-03 23:59:59 +0200
+  hour: 20h
+  theme: Iftar
+  location: Parc des Vues - Plateau de la Justice
+  wiki_link: "https://wiki.nuitdebout.fr/wiki/Villes/Épinal/125mars"
